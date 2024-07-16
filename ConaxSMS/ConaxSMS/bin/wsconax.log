@@ -1,0 +1,96 @@
+Wednesday, February 7, 2018 - 5:09:43 PM----------- Begin Request XML -----------
+Wednesday, February 7, 2018 - 5:09:43 PM<?xml version="1.0" encoding="utf-16"?>
+<Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SendBarkMessageToClients xmlns="http://www.conax.com/cas/xsd/user-text-messaging/v1">
+      <SendBarkMessageToClientsRequest>
+        <CaClientIds>
+          <CaClientId>01450253313</CaClientId>
+        </CaClientIds>
+        <Message>test message</Message>
+        <DisplayDurationInSeconds>10</DisplayDurationInSeconds>
+        <SequenceNumber>11</SequenceNumber>
+      </SendBarkMessageToClientsRequest>
+    </SendBarkMessageToClients>
+  </Body>
+</Envelope>
+Wednesday, February 7, 2018 - 5:09:43 PM----------- End Request XML -----------
+Wednesday, February 7, 2018 - 5:09:43 PMWeb Error: The remote server returned an error: (500) Internal Server Error.
+Wednesday, February 7, 2018 - 5:27:08 PM----------- Begin Request XML -----------
+Wednesday, February 7, 2018 - 5:27:08 PM<?xml version="1.0" encoding="utf-16"?>
+<Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SendBarkMessageToClients xmlns="http://www.conax.com/cas/xsd/user-text-messaging/v1">
+      <SendBarkMessageToClientsRequest>
+        <CaClientIds>
+          <CaClientId>01450253313</CaClientId>
+        </CaClientIds>
+        <Message>1654645654645646</Message>
+        <DisplayDurationInSeconds>10</DisplayDurationInSeconds>
+        <SequenceNumber>11</SequenceNumber>
+      </SendBarkMessageToClientsRequest>
+    </SendBarkMessageToClients>
+  </Body>
+</Envelope>
+Wednesday, February 7, 2018 - 5:27:08 PM----------- End Request XML -----------
+Wednesday, February 7, 2018 - 5:27:08 PMWeb Error: The remote server returned an error: (500) Internal Server Error.
+Wednesday, February 7, 2018 - 5:27:08 PMError Details:    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at ConaxSMS.SoapCaller.PostXMLRequest(AppConfigurator cfg, List`1 scList, String msg, Int32 durSecs, Int32 seqNum) in C:\Users\zaung\source\repos\ConaxSMS\ConaxSMS\SoapCaller.cs:line 164
+Wednesday, February 7, 2018 - 5:32:52 PM----------- Begin Request XML -----------
+Wednesday, February 7, 2018 - 5:32:52 PM<?xml version="1.0" encoding="utf-16"?>
+<Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SendBarkMessageToClients xmlns="http://www.conax.com/cas/xsd/user-text-messaging/v1">
+      <SendBarkMessageToClientsRequest>
+        <CaClientIds>
+          <CaClientId>01450253313</CaClientId>
+        </CaClientIds>
+        <Message>test</Message>
+        <DisplayDurationInSeconds>10</DisplayDurationInSeconds>
+        <SequenceNumber>11</SequenceNumber>
+      </SendBarkMessageToClientsRequest>
+    </SendBarkMessageToClients>
+  </Body>
+</Envelope>
+Wednesday, February 7, 2018 - 5:32:52 PM----------- End Request XML -----------
+Wednesday, February 7, 2018 - 5:32:52 PMWeb Error: The remote server returned an error: (500) Internal Server Error.
+Wednesday, February 7, 2018 - 5:32:52 PMError Details:    at System.Net.HttpWebRequest.GetResponse()
+   at ConaxSMS.SoapCaller.PostXMLRequest(AppConfigurator cfg, List`1 scList, String msg, Int32 durSecs, Int32 seqNum) in C:\Users\zaung\source\repos\ConaxSMS\ConaxSMS\SoapCaller.cs:line 165
+Wednesday, February 7, 2018 - 5:38:09 PM----------- Begin Request XML -----------
+Wednesday, February 7, 2018 - 5:38:09 PM<?xml version="1.0" encoding="utf-16"?>
+<Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SendBarkMessageToClients xmlns="http://www.conax.com/cas/xsd/user-text-messaging/v1">
+      <SendBarkMessageToClientsRequest>
+        <CaClientIds>
+          <CaClientId>01450253313</CaClientId>
+        </CaClientIds>
+        <Message>teddt</Message>
+        <DisplayDurationInSeconds>10</DisplayDurationInSeconds>
+        <SequenceNumber>11</SequenceNumber>
+      </SendBarkMessageToClientsRequest>
+    </SendBarkMessageToClients>
+  </Body>
+</Envelope>
+Wednesday, February 7, 2018 - 5:38:09 PM----------- End Request XML -----------
+Wednesday, February 7, 2018 - 5:38:09 PMWeb Error: The remote server returned an error: (500) Internal Server Error.
+Wednesday, February 7, 2018 - 5:38:09 PMError Details: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>Couldn't parse stream.</faultstring></soap:Fault></soap:Body></soap:Envelope>
+Wednesday, February 7, 2018 - 6:31:45 PM----------- Begin Request XML -----------
+Wednesday, February 7, 2018 - 6:31:45 PM<?xml version="1.0" encoding="utf-16"?>
+<Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SendBarkMessageToClients xmlns="http://www.conax.com/cas/xsd/user-text-messaging/v1">
+      <SendBarkMessageToClientsRequest>
+        <CaClientIds>
+          <CaClientId>01450253313</CaClientId>
+        </CaClientIds>
+        <Message>dsjdhjsdh hdjshd dsdsdfsdf</Message>
+        <DisplayDurationInSeconds>10</DisplayDurationInSeconds>
+        <SequenceNumber>11</SequenceNumber>
+      </SendBarkMessageToClientsRequest>
+    </SendBarkMessageToClients>
+  </Body>
+</Envelope>
+Wednesday, February 7, 2018 - 6:31:45 PM----------- End Request XML -----------
+Wednesday, February 7, 2018 - 6:31:45 PMWeb Error: The remote server returned an error: (500) Internal Server Error.
+Wednesday, February 7, 2018 - 6:31:45 PMError Details: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>Couldn't parse stream.</faultstring></soap:Fault></soap:Body></soap:Envelope>
